@@ -1,5 +1,9 @@
 {
   "name": "auto-commerce",
   "private": true,
-  "workspaces": ["api", "web"]
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "version": "0.0.0"
 }

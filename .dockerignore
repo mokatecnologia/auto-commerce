@@ -1,0 +1,27 @@
+# dependencies
+*node_modules/
+api/node_modules/
+web/node_modules
+node_modules
+node_modules/
+
+# env
+*.env
+
+# config
+*.npmrc
+*.git
+*.cache
+*.editorconfig
+*.eslintignore
+*.gitignore
+*.prettierignore
+*.prettierrc
+*-compose.yml
+*.devcontainer/
+*.github/
+
+# misc
+k8s/
+Makefile
+Dockerfile

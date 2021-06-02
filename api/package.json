@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/mokatecnologia/auto-commerce.git",
+  "author": "Moa Torres <44585769+moatorres@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && babel src -d dist",
+    "start": "NODE_ENV=production node ./dist/index",
+    "dev": "nodemon --exec babel-node ./src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.3",
+    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}

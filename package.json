@@ -2,7 +2,7 @@
   "name": "auto-commerce",
   "private": true,
   "workspaces": [
-    "api/*",
-    "web/*"
+    "api",
+    "web"
   ]
 }
